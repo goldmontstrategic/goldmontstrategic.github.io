@@ -15,6 +15,11 @@ h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, sma
   font-family: 'Montserrat', sans-serif;
 }
 
+h1.gmsheader {
+    font-size: 25px;
+    line-height: 30px;
+}
+
 p, .lead {
 	font-family: 'Raleway', sans-serif;
 }
@@ -476,7 +481,7 @@ footer {
   transition: all 0.25s ease-in-out;
 }
 .pricing-table.active {
-  box-shadow: 0px 0px 12px rgba(41,46,50,0.6); 
+  box-shadow: 0px 0px 12px rgba(41,46,50,0.6);
   position: absolute;
   margin: auto;
   z-index: 200;
@@ -611,7 +616,7 @@ footer {
    Mobile styles
    ========================================================================== */
 /* Landscape phones and down */
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
 
 .btn-lg {
   font-size: 12.5px;
@@ -629,7 +634,7 @@ footer {
   letter-spacing: 0px;
 }
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
 
@@ -637,9 +642,9 @@ footer {
 
 
 /* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 767px) { 
+@media (min-width: 481px) and (max-width: 767px) {
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
 
@@ -649,10 +654,10 @@ footer {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 991px) {
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
-  
+
 }
 
 
@@ -661,15 +666,10 @@ footer {
 @media (min-width: 992px) and (max-width: 1199px) {
 
 }
-     
+
 
 
 /* Large screens ----------- */
 @media (min-width: 1200px) and (max-width: 3000px) {
 
-}   
-
-
-
-
-
+}
