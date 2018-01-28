@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, sma
 h1.gmsheader {
     font-size: 25px;
     line-height: 30px;
+    margin-top: 0px;
 }
 
 p, .lead {
